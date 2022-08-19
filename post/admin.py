@@ -1,6 +1,4 @@
-from django.apps import AppConfig
+from django.contrib import admin
+from .models import Post
 
-
-class PostsConfig(AppConfig):
-    default_auto_field = "django.db.models.BigAutoField"
-    name = "posts"
+admin.site.register(Post)
