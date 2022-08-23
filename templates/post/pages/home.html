@@ -3,5 +3,15 @@
 {% block title %}Home{% endblock title %}
 
 {% block content %}
-    <p>This is my app!!!</p>
+<div class="container-fluid banner">
+    <div class="welcome">
+        <p class="welcome-text">Welcome</p>
+        <p class="introduction-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolo.!</p>
+        <a href="{% url 'post_list' %}">Posts</a>
+    </div>
+</div>
+
+<div class="container">
+    
+</div>
 {% endblock content %}
